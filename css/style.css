@@ -1,0 +1,122 @@
+
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather Sans', sans-serif;
+  color:black;
+}
+h1{
+  margin-top:  50 auto 0 auto;
+  font-size: 4.625rem;
+  font-family: 'Dancing Script', cursive;
+  color: #66BFBF;
+  list-style: 2;
+}
+h2{
+  font-size: 2.25rem;
+  font-family: 'Dancing Script', cursive;
+  color: #66BFBF;
+  font-weight: normal;
+}
+h3{
+  color: #11999E;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+a{
+  color: #11999E;
+  text-decoration: none;
+  margin: 10px 20px ;
+}
+a:hover{
+  color: #EAF6F6;
+}
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+.contact-message{
+  width: 40%;
+  margin: 40px auto;
+}
+.top-container{
+  background-color: #beebe9;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container{
+  margin: 100px 0px;
+}
+.bottom-container{
+  margin: 100px 0px 0px 0px;
+  background-color: #66BFBF;
+  padding:20px ;
+}
+.footermessage{
+  color: #EAF6F6;
+  font-size: 20PX;
+  padding: 20PX 0PX;
+}
+.top-cloud{
+
+  position: absolute;
+  right:300px;
+  top: 40px;
+}
+.bottom-cloud{
+position: absolute;
+left: 250px;
+bottom:300px;
+}
+.skill-row{
+  width: 50%;
+  margin: 50px auto;
+  text-align: left;
+  line-height: 2;
+}
+.skill1-img{
+  margin-right: 30PX;
+  margin-top: 0PX;
+  float: left;
+  width: 40%;
+}
+
+.skill2-img{
+  margin-left: : 30PX;
+  margin-top: 0PX;
+  float: right;
+  width: 40%;
+
+}
+.intro{
+  width: 30%;
+  margin: auto;
+}
+p{
+  line-height: 2;
+}
+.myButton {
+	box-shadow: 0px 1px 0px 0px #f0f7fa;
+	background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+	background-color:#33bdef;
+	border-radius:12px;
+	border:3px solid #057fd0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:21px;
+	font-weight:bold;
+	padding:10px 39px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #5b6178;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+	background-color:#019ad2;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
